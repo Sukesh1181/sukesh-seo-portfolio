@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c6af7"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="bggrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111114"/>
+      <stop offset="100%" stop-color="#0c0c0e"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="url(#bggrad)"/>
+  <!-- Subtle border -->
+  <rect width="64" height="64" rx="14" fill="none" stroke="url(#grad)" stroke-width="2" opacity="0.4"/>
+  <!-- Inner glow -->
+  <rect x="4" y="4" width="56" height="56" rx="11" fill="url(#grad)" opacity="0.08"/>
+  <!-- Letter S -->
+  <text
+    x="32"
+    y="44"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="36"
+    font-weight="700"
+    fill="url(#grad)"
+    text-anchor="middle"
+    letter-spacing="-1"
+  >S</text>
+  <!-- Small dot accent -->
+  <circle cx="46" cy="16" r="4" fill="#c084fc" opacity="0.7"/>
+  <circle cx="46" cy="16" r="2" fill="#7c6af7"/>
+</svg>
